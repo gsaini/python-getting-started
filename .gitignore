@@ -1,0 +1,11 @@
+.idea/
+*.pyc
+
+# environments
+env/
+venv/
+.venv
+
+.vscode/
+
+logs/
