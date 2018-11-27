@@ -1,0 +1,27 @@
+The exercises are as follows:
+ 
+TODO: Import the cars dataset and assign column names to the data.
+ 
+2.  TODO: ‘Clean’ the empty cars dataset. Explore the variables to find datapoints that shouldn't be there. There are many ways to treat outliers and NaN values. These can be discussed in more detail next week!
+ 
+3.  TODO: Assign features to X and target to y. We are trying to predict the MPG of the cars in this case.
+ 
+4.  TODO: Normalise the columns in the data, i.e. scale all of the variables linearly between 0 and 1.
+ 
+5.  TODO: Split data into testing and training sets.
+ 
+6.  TODO: Carry out a linear regression and calculate the RMSE and accuracy scores. What do these two values mean and when should we use them?
+ 
+7.  TODO: Create a new set of X and y, with the original data. We are going to repeat the process, but transforming the features, to see if we can achieve better accuracy.
+ 
+8.  TODO: Make transformations: Inverse Transform ‘displacement’ and ‘weight’, Power (^2) transform ‘horsepower’ and ‘model year’ and log transform ‘acceleration’. Why are we doing this, why transform the data at all?
+ 
+9.  TODO: Normalise the columns in the transformed data.
+ 
+10.TODO: Split the transformed data into test and train sets.
+ 
+11.TODO: Fit a linear regression model on transformed data and calculate the RMSE and accuracy scores. Can we compare it directly to the previous results? If yes, why? If not, why?
+ 
+12.TODO: BONUS: So far we have improved the score slightly. Try different transformations and see if you can improve this score further. The best score is the winner. Is there a way to automate this? How can we be smarter about picking the best transformations for the data?
+ 
+13.TODO: Use Partial Component Analysis and select the appropriate number of features for the reduced dataset. How does it work? Why do we do this?
