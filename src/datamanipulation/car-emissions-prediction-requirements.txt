@@ -1,6 +1,6 @@
 The exercises are as follows:
  
-TODO: Import the cars dataset and assign column names to the data.
+1. TODO: Import the cars dataset and assign column names to the data.
  
 2.  TODO: ‘Clean’ the empty cars dataset. Explore the variables to find datapoints that shouldn't be there. There are many ways to treat outliers and NaN values. These can be discussed in more detail next week!
  
