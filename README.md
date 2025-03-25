@@ -5,5 +5,5 @@
 
 ### Validate & generate unit test code coverage..
 
-```pytest --cov=utils --cov-report=html tests/```
+```pytest -v --cov=src/problem_solving_questions --cov-report=html tests/```
 
