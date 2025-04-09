@@ -30,4 +30,10 @@ jobs:
     # Run tests with coverage
     - name: Run tests
       run: |
-        pytest -v --cov=src/problem_solving_questions --cov-report=html --cov-report=term tests/
+        pytest -v --cov=src/problem_solving_questions --cov-report=xml --cov-report=term tests/
+
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v5
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        slug: gsaini/python-getting-started
