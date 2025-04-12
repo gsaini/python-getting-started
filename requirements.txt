@@ -1,3 +1,7 @@
 pytest
 pandas
 pytest-cov
+
+# Added dependencies for the content-parser.py script
+crawl4ai
+asyncio
