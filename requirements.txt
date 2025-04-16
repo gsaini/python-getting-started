@@ -6,4 +6,3 @@ crawl4ai
 asyncio
 
 pytest-asyncio
-unittest-mock
